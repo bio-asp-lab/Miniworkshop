@@ -57,10 +57,12 @@ body {
 }
 a {
 	transition: .3s all ease;
-	color: $primary;
+	color: #ffc107
+	;
 	&:hover, &:focus {
 		text-decoration: none;
-		color: $primary;
+		color: #ffc107
+		;
 		outline: none !important;
 	}
 }
@@ -209,7 +211,8 @@ h1, h2, h3, h4, h5,
 					&.active {
 					background: transparent;
 					background: none;
-					color: $primary;
+					color: #ffc107
+					;
 					span {
 						&:before {
 							visibility: visible;
@@ -223,7 +226,8 @@ h1, h2, h3, h4, h5,
 			@include media-breakpoint-down(md){
 				&.active {
 					> a {
-						color: $primary;
+						color: #ffc107
+						;
 					}
 				}
 			}
@@ -239,7 +243,8 @@ h1, h2, h3, h4, h5,
 		letter-spacing: .1em;
 		&:hover, &:focus {
 			text-decoration: none;
-			color: $primary;
+			color:#ffc107
+			;
 			outline: none !important;
 		}
 	}
@@ -263,7 +268,8 @@ h1, h2, h3, h4, h5,
 			}
 			&.active {
 				> a {
-					color: $primary!important;
+					color: #ffc107
+					!important;
 				}
 			}
 			&.cta {
@@ -313,7 +319,8 @@ h1, h2, h3, h4, h5,
 		.nav-link {
 			color: $black!important;
 			&.active {
-				color: $primary!important;
+				color: $#ffc107
+				!important;
 			}
 		}
 		&.awake {
@@ -603,7 +610,8 @@ h1, h2, h3, h4, h5,
 					text-transform: uppercase;
 					span{
 						font-weight: 900;
-						color: $primary;
+						color: #ffc107
+						;
 					}
 					@include media-breakpoint-down(md) {
 						color: $white;
@@ -679,7 +687,8 @@ h1, h2, h3, h4, h5,
 						&:before {
 							font-size: 20px;
 							margin-top: 7px;
-							color: $primary;
+							color: #ffc107
+							;
 						}
 					}
 				}
@@ -697,7 +706,8 @@ h1, h2, h3, h4, h5,
 						&:before {
 							font-size: 24px;
 							margin-top: 7px;
-							color: $primary;
+							color: #ffc107
+							;
 						}
 					}
 				}
@@ -1131,7 +1141,8 @@ h1, h2, h3, h4, h5,
 				content: '';
 				border-style: solid;
 				border-width: 10px 0 10px 10px;
-				border-color: transparent transparent transparent $primary;
+				border-color: transparent transparent transparent #ffc107
+				;
 				opacity: 0;
 		
 			}
@@ -1156,7 +1167,8 @@ h1, h2, h3, h4, h5,
 				@include transition(.3s);
 				border: 1px solid transparent;
 				// background: rgba(255,255,255,1);
-				background: $primary;
+				background: #ffc107
+				;
 				&:after{
 					opacity: 1;
 				}
@@ -1250,10 +1262,12 @@ h1, h2, h3, h4, h5,
 			display: inline-block;
 			padding: 0 5px;
 			a{
-				color: $primary;
+				color: #ffc107
+				;
 				font-size: 18px;
 				&:hover,&:focus{
-					color: $primary;
+					color: #ffc107
+					;
 				}
 			}
 		}
@@ -1289,7 +1303,8 @@ h1, h2, h3, h4, h5,
 		.price{
 			font-weight: 900;
 			font-size: 28px;
-			color: $primary;
+			color:#ffc107
+			;
 			@include transition(.3s);
 		}
 		.per{
@@ -1729,7 +1744,8 @@ textarea.form-control {
 			a {
 				color: $black;
 				&:hover, &:focus, &:active {
-					color: $primary;
+					color: #ffc107
+					;
 				}
 			}
 		}
@@ -1742,12 +1758,15 @@ textarea.form-control {
 		text-transform: uppercase;
 		letter-spacing: 2px;
 		span{
-			color: $primary;
+			color: #ffc107
+			;
 		}
 		a {
-			color: $primary;
+			color:#ffc107
+			;
 			&:hover {
-				color: $primary;
+				color: #ffc107
+				;
 			}
 		}
 	}
@@ -1839,7 +1858,8 @@ textarea.form-control {
 	.contact-info{
 		p{
 			a{
-				color: $primary;
+				color: #ffc107
+				;
 			}
 			span{}
 		}
