@@ -8256,7 +8256,6 @@ h1, h2, h3, h4, h5,
         background: #b3b3b3; }
   .owl-carousel.home-slider {
     position: relative;
-    padding-top: 30px;
     height: 750px;
     z-index: 0; }
     .owl-carousel.home-slider:after {
