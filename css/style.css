@@ -8761,7 +8761,7 @@ h1, h2, h3, h4, h5,
     .ftco-schedule .nav-pills p {
       margin-bottom: 0; }
     .ftco-schedule .nav-pills .nav-link {
-      padding: 19px !important;
+      padding: 25px !important;
       border-radius: 0;
       margin-bottom: 0;
       color: #000000;
@@ -8829,8 +8829,8 @@ h1, h2, h3, h4, h5,
 
 .speaker-wrap {
   width: 100%;
-  background: #fff;
-  padding: 21px;
+  background: #FFEE99;
+  padding: 18px;
   margin-bottom: 12px;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
